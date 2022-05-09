@@ -1,0 +1,11 @@
+{
+  "title": "Cheat Sheets",
+  "url": "https://cheat.akis.am",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "theme": "dark",
+  "github": "",
+  "twitter": ""
+}
