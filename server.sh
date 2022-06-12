@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ $1 = "build" ]; then
-    docker build -t $2 .
+    docker build -t $2 docker_image
     # server.sh build akis/cheats
 fi
 
