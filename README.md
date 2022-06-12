@@ -5,13 +5,13 @@
 Install dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Development
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Static Generation
@@ -19,7 +19,7 @@ yarn dev
 This will create the `dist/` directory for publishing to static hosting:
 
 ```bash
-yarn generate
+npm run generate generate
 ```
 
 To preview the static generated app, run `yarn start`
