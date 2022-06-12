@@ -11,3 +11,12 @@ fullscreen: false
 ```bash
 ssh user@remote.host 'echo write command here'
 ```
+
+## Create self signed SSL Certificate
+
+```bash
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/site.key -out /etc/ssl/certs/site.crt
+```
+
+After executing this command, `openssl` asks some questions, to disable interactive questions use **-batch** flag.
+
