@@ -1,6 +1,6 @@
 ---
 title: 'AWS'
-position: 1100
+position: 1500
 category: 'Cloud'
 version: 1.4
 fullscreen: false
